@@ -16,8 +16,8 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "n8n", "port": 5678}],
-    "uilayout": "iframe",
+    "dashboards": [{"name": "ipynb_test", "port": 5678}],
+    "uilayout": "terminal-iframe",
     "hidefinish": true
   },
   "backend": {
