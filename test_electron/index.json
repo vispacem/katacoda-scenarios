@@ -1,0 +1,27 @@
+{
+  "title": "test_electron Playground for development branch",
+  "description": "test_electron Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "test_electron", "port": 5678}],
+    "uilayout": "terminal-iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 5678
+  }
+}
