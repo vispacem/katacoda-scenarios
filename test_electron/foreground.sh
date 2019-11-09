@@ -1,5 +1,5 @@
-sudo git clone https://github.com/resyu/Scratchpad.git
-cd Scratchpad/
+# sudo git clone https://github.com/resyu/Scratchpad.git
+# cd Scratchpad/
 dpkg --add-architecture i386
 wget https://dl.winehq.org/wine-builds/Release.key
 apt-key add Release.key
