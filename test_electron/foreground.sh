@@ -1,7 +1,9 @@
 sudo git clone https://github.com/resyu/Scratchpad.git
 cd Scratchpad/
 
-yes | apt-get purge wine* && apt-get autoremove && rm -rf .wine
+apt-get purge wine*
+yes | apt-get autoremove 
+rm -rf .wine
 dpkg --add-architecture i386
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 apt-key add winehq.key
