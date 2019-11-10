@@ -6,6 +6,7 @@ apt-get update
 apt-get -y install --install-recommends winehq-stable
 apt-get -y purge software-properties-common libdbus-glib-1-2 python3-dbus python3-gi python3-pycurl python3-software-properties
 apt-get -y install --no-install-recommends --allow-unauthenticated winehq-stable fakeroot libxss1
+# get source
 git clone https://github.com/vispacem/Scratchpad.git
 cd Scratchpad/
 npm install
