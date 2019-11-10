@@ -1,5 +1,6 @@
 # install wine
-apt-get update && apt-get install -y --no-install-recommends software-properties-common
+apt-get update
+apt-get install -y --no-install-recommends software-properties-common
 dpkg --add-architecture i386
 curl -L https://dl.winehq.org/wine-builds/winehq.key > winehq.key
 apt-key add winehq.key
