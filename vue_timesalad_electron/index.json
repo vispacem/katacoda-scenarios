@@ -12,7 +12,12 @@
         "text": "intro.md",
         "code": "foreground.sh",
         "credits": ""
-    }
+    },
+   "intro2": {
+        "text": "intro2.md",
+        "code": "foreground2.sh",
+        "credits": ""
+    }    
   },
   "environment": {
     "showdashboard": true,
