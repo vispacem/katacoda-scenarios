@@ -11,10 +11,13 @@
                 "title": "Step 2",
                 "code": "foreground2.sh",
                 "text": "step2.md"
+            },
+            {
+                "title": "Step 3",
+                "code": "foreground3.sh",
+                "text": "step3.md"
             }
-
         ],    
-   
     "intro": {
         "text": "intro.md",
         "code": "foreground.sh",
